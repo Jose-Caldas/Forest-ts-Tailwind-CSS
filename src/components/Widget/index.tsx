@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { random } from '../utils/randomTemperature'
 
 interface WeatherProps {
   day: string
@@ -16,7 +17,6 @@ export default function Widget() {
   })
 
   useEffect(() => {
-    const random = Math.floor(Math.random() * 10) + 20
     const date = new Date()
     const day = date
       .toLocaleDateString('pt-BR', {
