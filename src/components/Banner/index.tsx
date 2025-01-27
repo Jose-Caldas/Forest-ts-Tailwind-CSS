@@ -6,11 +6,12 @@ import { useEffect, useState } from 'react'
 import { random } from '../utils/randomTemperature'
 
 export default function Banner() {
-  const [videoSrc, setVideoSrc] = useState<string | undefined>(' ')
+  const [videoSrc, setVideoSrc] = useState('./img/video_sol.mp4')
 
   useEffect(() => {
-    const src = random < 25 ? `./img/video_chuva.mp4` : `./img/video_sol.mp4`
-    setVideoSrc(src)
+    if (random < 25) {
+      setVideoSrc('./img/video_chuva.mp4')
+    }
   }, [])
 
   return (
