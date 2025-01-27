@@ -26,4 +26,11 @@
       theme(colors.verde.800) 100%
     );
   }
+
+  .bg-hosting {
+    background-image: url('../../public/img/padrao.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+  }
 }
