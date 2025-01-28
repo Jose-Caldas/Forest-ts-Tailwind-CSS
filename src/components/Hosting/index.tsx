@@ -4,7 +4,7 @@ export default function Hosting() {
   return (
     <section
       id="acomodacoes"
-      className="container radial-gradient grid lg:grid-cols-[2fr_3fr] gap-8 pt-16 mb-12 sm:mb-16"
+      className="radial-gradient grid lg:grid-cols-[2fr_3fr] gap-8 pt-16 mb-12 sm:mb-16"
     >
       <div className="content-end bg-hosting">
         <h2 className="text-white mb-8 text-4xl font-serif lg:text-5xl">
@@ -43,6 +43,7 @@ export default function Hosting() {
             width={0}
             height={0}
             sizes="100vh"
+            priority
           />
           <span className="m-2 self-start justify-self-end uppercase text-white rounded-full bg-verde-950/60 px-4 py-2 text-sm/none">
             Ruby
@@ -70,6 +71,7 @@ export default function Hosting() {
             height={0}
             width={0}
             sizes="100vh"
+            priority
           />
           <span className="m-2 self-start justify-self-end uppercase text-white rounded-full bg-verde-950/60 px-4 py-2 text-sm/none">
             Saphire

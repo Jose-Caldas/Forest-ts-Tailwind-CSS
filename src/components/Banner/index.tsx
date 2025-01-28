@@ -15,7 +15,7 @@ export default function Banner() {
   }, [])
 
   return (
-    <section className="container">
+    <section>
       <div className="relative px-8 pb-8 pt-64 bg-gradient-to-t from-verde-950/80 text-white rounded-2xl overflow-hidden max-sm:px-4 max-sm:pt-12">
         <video
           id="video"
@@ -32,7 +32,13 @@ export default function Banner() {
           vagas para dezembro abertas
           <a className="btn inline-flex items-center gap-2" href="#contato">
             Reserve Hoje
-            <Image src="./img/seta.svg" alt="" width={6} height={10}></Image>
+            <Image
+              src={`./img/seta.svg`}
+              alt=""
+              width={6}
+              height={10}
+              priority
+            ></Image>
           </a>
         </div>
         <h1 className="mb-8 font-serif text-balance max-w-screen-sm text-4xl sm:mb-20 sm:text-5xl">
@@ -52,10 +58,13 @@ export default function Banner() {
             <p className="uppercase mb-2">Recomendado por</p>
             <p className="flex items-center gap-4">
               <Image
+                className="w-[112px] h-[19.42px]"
                 src="./img/parceiros/wildbeast.svg"
                 alt="Wildbeast"
-                width={112}
-                height={19.42}
+                width={0}
+                height={0}
+                sizes="100vh"
+                priority
               ></Image>
               <span>|</span>
               Revista Nacional

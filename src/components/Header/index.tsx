@@ -12,13 +12,14 @@ export default function Header() {
   }
 
   return (
-    <header className="container flex items-center justify-between gap-8 py-8">
+    <header className="flex items-center justify-between gap-8 py-8">
       <Link href="/">
         <Image
           src="/img/forest.svg"
           alt="Forest logo"
           width={138}
           height={35}
+          priority
         />
       </Link>
       <nav

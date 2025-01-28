@@ -1,15 +1,19 @@
 import Banner from '@/components/Banner'
 import Header from '@/components/Header'
 import Hosting from '@/components/Hosting'
-import Widget from '@/components/Widget'
+import ForestWidget from '@/components/ForestWidget'
+import ForestEvents from '@/components/ForestEvents'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Widget />
-      <Header />
-      <Banner />
-      <Hosting />
+    <div>
+      <div className="container">
+        <ForestWidget />
+        <Header />
+        <Banner />
+        <Hosting />
+      </div>
+      <ForestEvents />
     </div>
   )
 }
