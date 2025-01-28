@@ -4,7 +4,7 @@ export default function Hosting() {
   return (
     <section
       id="acomodacoes"
-      className="radial-gradient grid lg:grid-cols-[2fr_3fr] gap-8 pt-16 mb-12 sm:mb-16"
+      className="container radial-gradient grid lg:grid-cols-[2fr_3fr] gap-8 pt-16 mb-12 sm:mb-16"
     >
       <div className="content-end bg-hosting">
         <h2 className="text-white mb-8 text-4xl font-serif lg:text-5xl">

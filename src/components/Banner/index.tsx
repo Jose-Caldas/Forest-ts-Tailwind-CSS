@@ -15,7 +15,7 @@ export default function Banner() {
   }, [])
 
   return (
-    <section>
+    <section className="container">
       <div className="relative px-8 pb-8 pt-64 bg-gradient-to-t from-verde-950/80 text-white rounded-2xl overflow-hidden max-sm:px-4 max-sm:pt-12">
         <video
           id="video"

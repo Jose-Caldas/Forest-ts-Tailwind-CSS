@@ -34,7 +34,7 @@ export default function ForestWidget() {
   }, [])
 
   return (
-    <div className="mt-4 flex justify-center md:justify-start">
+    <div className="container mt-4 flex justify-center md:justify-start">
       <div className="inline-flex items-center rounded-md bg-verde-900">
         <span className="neon size-2 block relative -left-1"></span>
         <div className="flex text-verde-300 divide-x-2 divide-verde-800">

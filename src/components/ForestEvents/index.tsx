@@ -15,7 +15,7 @@ export default function ForestEvents() {
         </p>
         <div className="grid grid-cols-[repeat(3,minmax(300px,1fr))] gap-4 sm:gap-8 pb-4 overflow-x-auto snap-x snap-mandatory">
           <div className="grid gap-4 snap-center bg-verde-800 p-6 sm:p-8 rounded-xl">
-            <h2 className="text-verde-400">Lua Nova</h2>
+            <h2 className="text-verde-200">Lua Nova</h2>
             <div className="text-white">
               <p className="font-serif text-5xl">23</p>
               <p className="text-xl">Março 2049</p>
@@ -29,7 +29,7 @@ export default function ForestEvents() {
             </Link>
           </div>
           <div className="grid snap-center gap-4 bg-verde-800 p-6 sm:p-8 rounded-xl">
-            <h2 className="text-verde-400">Aurora Boreal</h2>
+            <h2 className="text-verde-200">Aurora Boreal</h2>
             <div className="text-white">
               <p className="font-serif text-5xl">15</p>
               <p className="text-xl">Abril 2049</p>
@@ -43,7 +43,7 @@ export default function ForestEvents() {
             </Link>
           </div>
           <div className="grid snap-center gap-4 bg-verde-800 p-6 sm:p-8 rounded-xl">
-            <h2 className="text-verde-400">Chuva de Meteoros</h2>
+            <h2 className="text-verde-200">Chuva de Meteoros</h2>
             <div className="text-white">
               <p className="font-serif text-5xl">18</p>
               <p className="text-xl">Agosto 2049</p>
