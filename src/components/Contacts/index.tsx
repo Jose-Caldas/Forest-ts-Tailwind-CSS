@@ -27,7 +27,9 @@ export default function Contacts() {
           </div>
           <div>
             <span className="h-0.5 w-6 neon inline-block"></span>
-            <h2 className="font-serif text-verde-300 text-2xl mb-2">Base</h2>
+            <h2 className="font-serif text-verde-300 text-2xl mb-2">
+              Telefone
+            </h2>
             <p className="text-gray-300">21 99999-9999</p>
           </div>
         </div>

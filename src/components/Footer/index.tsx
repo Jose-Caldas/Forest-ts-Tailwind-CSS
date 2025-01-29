@@ -1,4 +1,10 @@
+'use client'
+
 import Image from 'next/image'
+
+function handleScrollTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
 
 export default function Footer() {
   return (
@@ -54,6 +60,14 @@ export default function Footer() {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="container flex justify-end mt-8">
+        <button
+          className="bg-verde-950/10 text-verde-300 rounded-md py-2 px-4 hover:bg-verde-700 hover:scale-110 transition-transform"
+          onClick={handleScrollTop}
+        >
+          <span className="text-xl">↑</span> Top
+        </button>
       </div>
     </footer>
   )
