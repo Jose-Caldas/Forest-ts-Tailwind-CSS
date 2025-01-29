@@ -5,6 +5,7 @@ import ForestWidget from '@/components/ForestWidget'
 import ForestEvents from '@/components/ForestEvents'
 import Experiences from '@/components/Experiences'
 import NaturalCycle from '@/components/NaturalCycle'
+import Contacts from '@/components/Contacts'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ForestEvents />
       <Experiences />
       <NaturalCycle />
+      <Contacts />
     </div>
   )
 }
