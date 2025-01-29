@@ -28,7 +28,7 @@
   }
 
   .bg-hosting {
-    background-image: url('../../public/img/padrao.svg');
+    background-image: url('/img/padrao.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left bottom;
