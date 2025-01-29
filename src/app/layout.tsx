@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-Br">
+    <html lang="pt-Br" className="scroll-smooth">
       <body className="bg-verde-800">{children}</body>
     </html>
   )
