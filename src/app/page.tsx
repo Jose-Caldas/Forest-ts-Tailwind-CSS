@@ -7,6 +7,7 @@ import Experiences from '@/components/Experiences'
 import NaturalCycle from '@/components/NaturalCycle'
 import Contacts from '@/components/Contacts'
 import Partners from '@/components/Partners'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <NaturalCycle />
       <Contacts />
       <Partners />
+      <Footer />
     </div>
   )
 }
