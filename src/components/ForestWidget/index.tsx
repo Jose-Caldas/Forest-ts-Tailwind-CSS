@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { random } from '../utils/randomTemperature'
+import { random } from '@/utils/randomTemperature'
 
 interface WeatherProps {
   day: string

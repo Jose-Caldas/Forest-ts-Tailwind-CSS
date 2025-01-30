@@ -3,7 +3,7 @@
 import Image from 'next/image'
 
 import { useEffect, useState } from 'react'
-import { random } from '../utils/randomTemperature'
+import { random } from '@/utils/randomTemperature'
 
 export default function Banner() {
   const [videoSrc, setVideoSrc] = useState('./img/video_sol.mp4')
